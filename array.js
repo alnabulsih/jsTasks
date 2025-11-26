@@ -278,6 +278,7 @@ function evenIndexOddLengthWhile(arr) {
   return result;
 }
 console.log(evenIndexOddLengthWhile(["alex","mercer","madrasa","rashed2","emad","hala"]));
+//21
 function powerElementIndexFor(arr) {
   let result = [];
   for (let i = 0; i < arr.length; i++) {
@@ -299,7 +300,7 @@ function powerElementIndexWhile(arr) {
 
 console.log(powerElementIndexWhile([44, 5, 4, 3, 2, 10]));
 
-
+//22
 function evenNumberEvenIndexFor(arr) {
   let result = [];
   for (let i = 0; i < arr.length; i += 2) {
